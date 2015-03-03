@@ -1,4 +1,6 @@
 # Load data
+# data directory (source) excluded from github repo
+# the following command assumes ./data exists and contains source files
 epconsumption <- read.table("./data/household_power_consumption.txt", sep=";", 
 							na.strings = "?", dec=".", header=TRUE)
 # Subset data
